@@ -18,13 +18,11 @@ Be sure your system time is synchronized!\
 See Demo here:\
 https://casparcg.better-broadcast.de/smpte-generator/
 \
-########################################################\
-\
 Have fun and good luck.\
 \
 Regards, Jason\
 \
-########################################################\
+########################################################
 
 	     Better Broadcast Solutions
 	       powered by Jason Kuhr
