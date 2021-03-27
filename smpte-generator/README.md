@@ -1,7 +1,7 @@
 **SMPTE GENERATOR**
 by BETTER BROADCAST SOLUTIONS
 
-########################################################
+###########################################
 
 This Template is made for CasparCG 2.3.0 LTS\
 it also should work fine with other versions\
@@ -22,7 +22,7 @@ Have fun and good luck.\
 \
 Regards, Jason\
 \
-########################################################
+###########################################
 
 	     Better Broadcast Solutions
 	       powered by Jason Kuhr
