@@ -1,8 +1,6 @@
-########################################################
-#                                                      #
-#                   SMPTE GENERATOR                    #
-#            by BETTER BROADCAST SOLUTIONS             #
-#                                                      #
+SMPTE GENERATOR
+by BETTER BROADCAST SOLUTIONS
+
 ########################################################
 
 This Template is made for CasparCG 2.3.0 LTS
