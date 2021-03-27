@@ -3,7 +3,7 @@ by BETTER BROADCAST SOLUTIONS
 
 ########################################################
 
-This Template is made for CasparCG 2.3.0 LTS
+This Template is made for CasparCG 2.3.0 LTS/r
 	it also should work fine with other versions
 
 You can use JSON data to customize the Template.
