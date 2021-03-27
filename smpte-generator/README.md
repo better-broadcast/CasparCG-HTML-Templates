@@ -17,6 +17,9 @@ Template tested and optimized for all video modes.
 The shown clock uses your system time.
 Be sure your system time is synchronized!
 
+See Demo here: 
+   https://casparcg.better-broadcast.de/smpte-generator/
+
 ########################################################
 
 If you find any bugs please report them to me.
