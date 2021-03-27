@@ -1,0 +1,44 @@
+/*  ########################################################
+    #                                                      #
+    #                   SMPTE GENERATOR                    #
+    #            by BETTER BROADCAST SOLUTIONS             #
+    #                                                      #
+    ########################################################
+
+    This Template is made for CasparCG 2.3.0 LTS
+	    it also should work fine with other versions
+
+    © 2021 Jason Kuhr
+*/
+
+body { margin: 0px; color: white; font-family: sans-serif; font-size: 4vh; overflow: hidden; }
+img { position: relative; height: 100%; width: 100%; }
+#f0 { font-weight: bold; }
+#f1 { font-size: 3vh; }
+div.main { position: relative; width: 100vw; height: 100vh; background: rgba(0,0,0,1); overflow: hidden; }
+div.smpte { position: absolute; width: 80vh; height: 80vh; top: 50%; left: 50%; text-align: center; transform: translate(-50%,-50%); }
+div.circle{ position: absolute; height: 100%; width: 100%; left: 50%; top: 50%; transform: translate(-50%,-50%); border: 0.5vh solid rgba(255,255,255,1); border-radius: 100%; overflow: hidden; }
+div.linehori    { position: absolute; height: 0.5vh; width: 95%; left: 50%; top: 50%; transform: translate(-50%,-50%); background: rgba(255,255,255,1); overflow: hidden; }
+div.lineverttop { position: absolute; height: 7.5vh; width: 0.5vh; left: 50%; top: 2%; transform: translate(-50%,0%); background: rgba(255,255,255,1); }
+div.linevertbottom { position: absolute; height: 7.5vh; width: 0.5vh; left: 50%; bottom: 2%; transform: translate(-50%,0%); background: rgba(255,255,255,1); }
+div.textbox { position: absolute; width: 100%; height: 20%; left: 50%; top: 50%; transform: translate(-50%,-50%); background: rgba(0,0,0,1); overflow: hidden; }
+div.text { position: absolute; width: 100%; left: 50%; top: 50%; transform: translate(-50%,-50%); }
+div.clock { position: absolute; width: 14.3vw; height: 8.3vh; left: 50%; top: 60.8vh; font-size: 2.5vw; transform: translate(-50%,-50%); overflow: hidden; }
+
+/* FIXING BUGS FOR VIDEO MODE: NTSC */
+@media only screen and (max-height: 570px) {
+  html, body { width: 720px; height: 540px; }
+  img{ height: 100%; width: 100%; }
+  #f0 { font-size: 3.5vh; font-weight: bold; }
+  #f1 { font-size: 2.5vh; }
+  div.main{ width: 720px; height: 486px; left: 50%; top: 50%; transform: scaleY(1.112) translate(-50%,-45%); }
+  div.smpte{ width: 71vh; height: 71vh; }
+  div.clock { top: 77%; }
+}
+/* FIXING BUGS FOR VIDEO MODE: PAL */
+@media only screen and (height: 576px) {
+  html, body { width: 1024px; height: 576px; }
+  img{ height: 100%; width: 100%; }
+  div.main{ width: 720px; height: 576px; left: 50%; top: 50%; transform: scaleX(1.423) translate(-35.15%,-50%); }
+  div.clock { top: 76.4%; font-size: 2vw; width: 22.5%; }
+}
